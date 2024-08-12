@@ -1,0 +1,569 @@
+html {
+    background-color: rgba(18, 18, 18, 1);
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+hr {
+    /* margin: 0px 80px; */
+    width: 40%;
+    border: .5px solid rgba(112, 112, 112, 1);
+    
+}
+
+header {
+    overflow: hidden;
+    position: relative;
+}
+/* Hide the links inside the navigation menu (except for logo/home) */
+header #mobile-nav {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  header a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  
+  /* Add a grey background color on mouse-over */
+  header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.hamburger-menu {
+    display: none;
+}
+
+#header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-logo {
+    display: block;
+}
+
+.linear-text {
+    background: -webkit-linear-gradient(rgba(253, 111, 0, 1), rgba(230, 0, 38, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.linear-text-second-type {
+    background: -webkit-linear-gradient(rgba(250, 110, 0, 1), rgba(228, 100, 0, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.third-linear-text {
+    background: -webkit-linear-gradient(rgba(152, 67, 0, 1), rgba(253, 111, 0, 1),rgba(202, 89, 0, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(149, 149, 149, 1);
+    text-align: center;
+    align-items: center;
+}
+
+.nav-container-footer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(149, 149, 149, 1);
+    text-align: center;
+    align-items: center;
+}
+
+
+.hire-btn {
+    background: -webkit-linear-gradient(rgba(250, 110, 0, 1), rgba(228, 100, 0, 1));
+    padding: 12px 40px;
+    height: 43px;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+
+}
+
+.hello-container {
+    display: flex; flex-direction: column ;gap: 20px;
+}
+
+.uiux-text {
+    font-weight: 900; font-size: 70px; line-height: 84px;
+}
+
+.download-btn {
+    background: transparent;
+    padding: 12px 40px;
+    height: 43px;
+    font-weight: 700;
+    font-size: 16px;
+    border: 2px solid rgba(149, 149, 149, 1);
+    border-radius: 8px;
+    color: rgba(149, 149, 149, 1);
+
+}
+
+.nav-container .active {
+    color: rgba(253, 111, 0, 1);
+    font-weight: 700;
+}
+
+#introduction-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.general-introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.experiences-container {
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.04);
+
+}
+
+.quantity-info {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: left;
+    align-items: center; */
+    color:rgba(149, 149, 149, 1);
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.quantity-number {
+    font-size: 24px;
+    font-weight: 800;
+    color: rgba(253, 111, 0, 1);
+}
+
+.vl {
+    border-left: 1px solid rgba(149, 149, 149, 1);
+    height: 77px;
+}
+
+#service-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    gap: 80px;
+}
+
+.title-section {
+    color: rgba(254, 254, 254, 1);
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0px;
+    text-align: center;
+}
+
+.description-section {
+    color: rgba(112, 112, 112, 1);
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+}
+
+.service-list-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 40px;
+}
+
+.service-list-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.04);
+    padding: 34px;
+}
+
+#about-section ,#contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    gap: 80px;
+}
+
+.about-detail-container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.about-detail-info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 101px;
+}
+
+.detail-info-container {
+}
+
+.skill-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.skill-img {
+    width: 130px;
+}
+
+.skill-progress {
+    font-weight: 700; font-size: 30px;
+}
+
+.skill-name {
+    color: rgba(149, 149, 149, 1); font-weight: 700; font-size: 24px; text-align: center;
+}
+
+#portfolio-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 80px;
+}
+
+.portfolio-image-list-container {
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    grid-gap: 12px;
+}
+
+.main-btn {
+    padding: 14px 40px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    background: -webkit-linear-gradient(rgba(250, 110, 0, 1), rgba(228, 100, 0, 1));
+}
+
+.primary-btn {
+    padding: 14px 40px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    background: rgba(255, 255, 255, 0.08);
+    color: rgba(198, 198, 198, 1);
+}
+
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 80%;
+}
+
+.contact-line-container {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-gap: 30px;
+    width: 100%;
+}
+
+.contact-line-container > input, .contact-line-container > select {
+    padding: 14px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.04);
+    color: rgba(149, 149, 149, 1);
+    font-weight: 500;
+    font-size: 16px;
+    height: fit-content;
+}
+
+.contact-line-container > textarea {
+    padding: 14px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.04);
+    color: rgba(149, 149, 149, 1);
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.send-line-container {
+    display: flex;
+    justify-content: end;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.04);
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer-nav-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .skill-img {
+        width: 90px;
+    }
+    
+    .skill-progress {
+        font-weight: 700; font-size: 24px;
+    }
+    
+    .skill-name {
+        color: rgba(149, 149, 149, 1); font-weight: 700; font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger-menu {
+        display: block;
+    }
+    
+    .nav-container {
+        display: none;
+    }
+
+    #header-container {
+        padding: 20px;
+    }
+
+    #introduction-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 20px;
+    }
+
+    .title-section {
+        font-weight: 600;
+        font-size: 28px;
+    }
+    
+    .description-section {
+        font-size: 16px;
+    }
+
+    #service-section, #about-section{
+        padding: 80px 40px;
+    }
+
+    #portfolio-section, #contact-section {
+        padding: 80px 20px;
+    }
+
+    #introduction-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 20px;
+    }
+    .general-introduction {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hello-container {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .experiences-container {
+        width: 100%;
+        padding: 12px;
+        gap: 12px;
+    
+    }
+
+    .service-list-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
+
+    .about-detail-info-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .detail-info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+    }
+
+    .skill-container {
+        grid-template-columns: auto auto;
+        grid-gap: 24px;
+    }
+
+    .main-btn, .primary-btn {
+        padding: 14px;
+        font-size: 14px;
+    }
+
+    .portfolio-image-list-container {
+        display: flex;
+        flex-direction: row;
+        overflow-y: auto;
+    }
+
+    .contact-line-container {
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+    }
+
+    .send-line-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        padding: 40px 20px;
+    }
+
+    hr {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .uiux-text {
+        font-weight: 800; font-size: 46px; line-height: 52px;
+    }
+
+    .quantity-info {
+        gap: 4px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .quantity-number {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .vl {
+        border-left: 1px solid rgba(149, 149, 149, 1);
+        height: 55px;
+    }
+
+    .service-list-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .main-logo {
+        display: none;
+    }
+
+    .uiux-text {
+        font-weight: 800; font-size: 36px; line-height: 42px;
+    }
+
+    .hire-btn {
+        padding: 12px;
+
+    }
+
+    .download-btn {
+        padding: 12px;
+    }
+
+    .quantity-info {
+        gap: 4px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+    .quantity-number {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .vl {
+        border-left: 1px solid rgba(149, 149, 149, 1);
+        height: 44px;
+    }
+}
