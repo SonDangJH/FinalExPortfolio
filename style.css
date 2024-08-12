@@ -101,7 +101,7 @@ header #mobile-nav {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 24px;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -239,6 +239,19 @@ header #mobile-nav {
     padding: 34px;
 }
 
+.app-design-text {
+    color: rgba(253, 111, 0, 1); font-weight: 700; font-size: 24px; text-align: center;
+}
+
+.service-img {
+    width: 55px;
+    height: 55px;
+}
+
+.service-detail-text {
+    font-weight: 500; font-size: 20px; color: rgba(87, 87, 87, 1); text-align: center;
+}
+
 #about-section ,#contact-section{
     display: flex;
     flex-direction: column;
@@ -272,6 +285,7 @@ header #mobile-nav {
 .skill-img {
     width: 130px;
 }
+
 
 .skill-progress {
     font-weight: 700; font-size: 30px;
@@ -312,6 +326,14 @@ header #mobile-nav {
     font-weight: 700;
     background: rgba(255, 255, 255, 0.08);
     color: rgba(198, 198, 198, 1);
+}
+
+.hide-in-large-mode {
+    display: nonde;
+}
+
+.port-image {
+    width: 100%;
 }
 
 .contact-form-container {
@@ -416,11 +438,13 @@ footer {
     }
 
     #service-section, #about-section{
-        padding: 80px 40px;
+        padding: 40px 20px;
+        gap: 24px;
     }
 
     #portfolio-section, #contact-section {
-        padding: 80px 20px;
+        padding: 40px 20px;
+        gap: 24px;
     }
 
     #introduction-section {
@@ -428,7 +452,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 80px 20px;
+        padding: 40px 20px;
     }
     .general-introduction {
         justify-content: center;
@@ -457,7 +481,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 60px;
+        gap: 34px;
     }
 
     .detail-info-container {
@@ -483,9 +507,13 @@ footer {
         overflow-y: auto;
     }
 
+    .contact-form-container {
+        width: 100%;
+    }
+
     .contact-line-container {
-        display: grid;
-        grid-template-columns: auto;
+        display: flex;
+        flex-direction: column;
         width: 100%;
     }
 
@@ -500,6 +528,45 @@ footer {
 
     hr {
         width: 80%;
+    }
+
+    .nav-container-footer-section {
+        font-size: 18px;
+    }
+
+    .nav-container-footer-section > a {
+        padding: 0px;
+    }
+
+    .service-list-item-container {
+        padding: 20px 24px;
+        gap: 16px;
+    }
+
+    .service-detail-text {
+        display: block;
+        overflow: hidden;
+        max-height: 2.6em;
+        line-height: 1.3em;
+        font-size: 16px;
+    }
+
+    .app-design-text {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .service-item-img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .hide-in-large-mode {
+        display: block;
+    }
+
+    .port-image {
+        width: 70%;
     }
 
 }
@@ -525,11 +592,6 @@ footer {
         height: 55px;
     }
 
-    .service-list-container {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
 
 }
 
@@ -544,8 +606,8 @@ footer {
 
     .hire-btn {
         padding: 12px;
-
     }
+
 
     .download-btn {
         padding: 12px;
@@ -560,6 +622,12 @@ footer {
     .quantity-number {
         font-size: 16px;
         font-weight: 600;
+    }
+
+    .service-list-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
 
     .vl {
